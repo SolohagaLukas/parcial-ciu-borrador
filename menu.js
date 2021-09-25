@@ -1,0 +1,1 @@
+document.getElementById("user").innerHTML=localStorage.getItem("nombreUsuario");

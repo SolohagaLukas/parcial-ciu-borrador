@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(55, 187, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 120px; width: 240px;
+    position: relative;
+    left: -10px; top: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+input {
+    height: 30px; width: 300px;
+    border-radius: 5px;
+}
+
+#ingresar {
+    background-color: rgb(66, 183, 42);
+    color: white;
+}
+
+#registrarme {
+    background-color: #1789FC;
+    color: white;
+    width: 200px;
+    position: absolute;
+    left: 575px;
+}
+
+p {
+    color: red;
+}
+
+
+.formulario-correcto  {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario-incorrecto  {
+	border: 3px solid #bb2929;
+    color: red;
+}

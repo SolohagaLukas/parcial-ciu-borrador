@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(55, 187, 237);
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    position: fixed;
+    top: 8%; left: 80%;
+    width: 150px; height: 30px;
+    background-color: red;
+}
+
+table {
+    border: solid 1px black;
+    background-color: white;   
+    margin: auto; 
+}
+
+table thead th {
+    border-right: 1px solid black;
+    min-width: 150px; 
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 20px;
+    height: 100px; width: 350px;
+}
+
+table thead th:last-child {
+    border-right: 0;
+}
